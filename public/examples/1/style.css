@@ -1,0 +1,31 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+#box1 {
+    background-color: #FF8A5B;
+}
+
+#box2 {
+    background-color: #BAA5FF;
+}
+
+#box3 {
+    background-color: #EA526F;
+}
