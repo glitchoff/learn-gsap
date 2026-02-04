@@ -12,7 +12,7 @@ gsap.to("#box2",{
     stagger:true,
     duration:1,
     delay:1,
-    x:1000,
+    x:1000, 
     rotate:360,
     yoyo:true,
     repeat:-1,
