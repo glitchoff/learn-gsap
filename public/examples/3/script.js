@@ -1,11 +1,15 @@
 
 
 
-gsap.from("#page2 h2", {
-    opacity:1,
-    scrollTrigger:{ 
-        trigger: "#page2 h2",
-        start:"top 50%",
-        scroller: "body",
+gsap.to("#page2 h1", {
+    transform: "translateX(-65%)",
+    scrollTrigger:{
+        trigger:"#page2",
+        start:"top 0%",
+        end:"bottom -100%",
+        scroller:"body",
+        scrub:2,
+        pin:true,
+
     }
 })
