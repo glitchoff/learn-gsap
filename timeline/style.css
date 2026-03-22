@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid white;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    transform: translateX(0);
+
+}
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color: pink;
+}
+.box3{
+    background-color: red;
+}
+
+.controls{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
